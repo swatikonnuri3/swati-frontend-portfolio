@@ -51,25 +51,19 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A responsive personal portfolio website built with React.js to showcase my projects, technical skills, resume, and contact information. Designed with a clean UI and smooth navigation to provide a professional online presence.",
     technologies: ["HTML", "CSS", "Javascript", "React.js"],
-    link:"",
+    link:"https://github.com/swatikonnuri3/swati-frontend-portfolio",
   },
+  
+  
   {
-    title: "Coffee Shop Sales Analysis",
-    image: project2,
-    description:
-      "Analyzed sales data from a coffee shop using Python to uncover key business insights. Performed data cleaning, feature engineering, and visualizations. Prepared the dataset for future machine learning applications like sales forecasting and customer segmentation using tools like Pandas, Matplotlib, and Seaborn.",
-    technologies: ["Python", "pandas", "Seaborn", "Matplotlib"],
-    link:"",
-  },
-  {
-    title: "VTU Exam Assistant using Python & NLP",
+    title: "Resume Parser Project using Python & NLP",
     image: project4,
     description:
-      "This project uses NLP to help VTU students prepare for exams by extracting important questions, summaries, and key concepts from academic PDF notes. Built with Python libraries like PyMuPDF, spaCy, and NLTK, it turns unstructured text into focused, exam-relevant insights.",
-    technologies: ["Python", "NLP", "PyMuPDF", "NLTK", "TextRank"],
-    link:""
+     "This project automates the extraction of relevant information from resumes using Natural Language Processing (NLP). It parses PDF or DOCX resumes to extract structured data such as name, contact details, education, skills, work experience, and more. Built using Python libraries like spaCy, PyMuPDF, and NLTK, this tool streamlines resume screening for recruiters and HR systems.",
+    technologies: ["Python", "NLP", "PyMuPDF", "spaCy", "NLTK"],
+    link: ""
   },
 ];
 
