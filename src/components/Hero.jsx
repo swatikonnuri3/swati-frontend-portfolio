@@ -1,5 +1,5 @@
+
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/KevinRushProfile.png";
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
         {/* Right Side - Profile Image */}
         <div className="w-full lg:w-1/2 p-4 flex justify-center items-center">
           <img
-            src={profilePic}
+            src="/KevinRushProfile.png" // 👈 image from public folder
             alt="Swati Konnuri"
             className="rounded-xl max-w-xs w-full h-auto"
           />
